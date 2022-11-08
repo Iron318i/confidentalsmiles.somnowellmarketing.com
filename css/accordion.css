@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.accordion { width:100%; float:left; margin:13px auto 0;}
+.accordion h2 { width:100%; float:left; cursor:pointer; background:#604a7b url(../images/feeser-icon1.png) no-repeat 97% center; margin:0 0 4px 0; padding:9px 25px 11px;}
+.accordion h2.active { background:#604a7b url(../images/feeser-icon2.png) no-repeat 97% center; }
+.accordion .content { width:100%; float:left; padding:0 0 0;}
+
+/*Smartphone css*/
+@media screen and (max-width: 480px) {
+.accordion h2 { background-position:95% center; padding:15px 5% 16px;}
+.accordion h2.active { background-position:95% center;}
+.accordion .content { padding:6px 0 3px;}
+}
+
+@media screen and (min-width:481px) and (max-width:600px) {
+.accordion h2 { background-position:95% center; padding:15px 5% 16px;}
+.accordion h2.active { background-position:95% center;}
+.accordion .content { padding:6px 0 3px;}
+}
+
+@media screen and (min-width:601px) and (max-width:767px) {
+.accordion h2 { background-position:95% center; padding:15px 5% 16px;}
+.accordion h2.active { background-position:95% center;}
+.accordion .content { padding:6px 0 3px;}
+}
+
+@media screen and (min-width:768px) and (max-width:900px) {
+
+}
+
+@media screen and (min-width:901px) and (max-width:1024px) {
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1240px) {
+
+}
