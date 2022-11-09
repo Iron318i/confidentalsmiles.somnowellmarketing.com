@@ -185,14 +185,14 @@ gulp.task('scripts', function () {
     gulp
         .src(scripts, {allowEmpty: true})
         .pipe(babel({presets: ['@babel/preset-env']}))
-        .pipe(concat('theme.min.js'))
+        .pipe(concat('lp.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest(paths.js));
 
     return gulp
         .src(scripts, {allowEmpty: true})
         .pipe(babel())
-        .pipe(concat('theme.js'))
+        .pipe(concat('lp.js'))
         .pipe(gulp.dest(paths.js));
 });
 

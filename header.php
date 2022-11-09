@@ -34,8 +34,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-<?php if (!is_page_template('page-templates/lp-smile-makeover.php') || !is_page_template('page-templates/lp-smile-makeover.php')) : ?>
-
+<?php if (!is_new_lp()) : ?>
 
 <?php if (is_page_template('template-lp.php') || is_page_template('template-lp-sidebar.php')) {
 } else { ?>

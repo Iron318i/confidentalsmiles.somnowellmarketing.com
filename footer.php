@@ -1,4 +1,4 @@
-<?php if (!is_page_template('page-templates/lp-smile-makeover.php') || !is_page_template('page-templates/lp-smile-makeover.php')) : ?>
+<?php if (!is_new_lp()) : ?>
 
     <!--Somedialog-overlay-->
     <div id="somedialog" class="dialog dialog--close">
