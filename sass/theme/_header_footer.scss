@@ -33,6 +33,16 @@
       margin-right: 5px;
     }
   }
+  .social {
+    li {
+      display: inline-block;
+      font-size: 34px;
+      line-height: 1;
+      a {
+        display: inline-block;
+      }
+    }
+  }
 }
 .lp-wrp {
   svg {
