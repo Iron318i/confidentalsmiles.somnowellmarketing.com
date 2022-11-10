@@ -48,6 +48,9 @@
 .col {
   flex: 1 0 0%;
 }
+.align-items-center {
+  align-items: center;
+}
 @media (min-width: 768px) {
   .col-md-1 {
     flex: 0 0 auto;

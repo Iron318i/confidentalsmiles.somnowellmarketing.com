@@ -5,6 +5,8 @@ body {
   min-width: 320px;
 }
 .lp-wrp {
+  font-size: 15px;
+  color: #000000;
   svg {
     width: 1em;
     height: 1em;
@@ -19,15 +21,66 @@ body {
   .text-primary {
     color: $primary;
   }
+  a {
+    color: $link-color;
+    &:hover {
+      color: $primary;
+      text-decoration: underline;
+    }
+  }
   .top-heading {
     text-align: center;
-    padding: 9% 0 8%;
-    h2 {
+    h3 {
       font-weight: 300;
-      font-size: 30px;
+      font-size: 20px;
       strong {
         font-weight: 900;
       }
     }
+  }
+  .h2 {
+    color: $primary;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .pt-4 {
+    padding-top: 2.5rem;
+  }
+  .pb-4 {
+    padding-bottom: 2.5rem;
+  }
+  .py-4 {
+    padding: 2.5rem 0;
+  }
+  .pt-5 {
+    padding-top: 3rem;
+  }
+  .pb-5 {
+    padding-bottom: 3rem;
+  }
+  .py-5 {
+    padding: 3rem 0;
+  }
+  .mb-2 {
+    margin-bottom: 1rem;
+  }
+}
+.what-is {
+  position: relative;
+  overflow: hidden;
+  &:after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    background-color: #eeeeee;
+    left: 30%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 19px;
+  }
+  img {
+    border-radius: 19px;
   }
 }
