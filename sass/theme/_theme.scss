@@ -1,0 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-width: 320px;
+}
+.lp-wrp {
+  svg {
+    width: 1em;
+    height: 1em;
+  }
+  img, svg {
+    vertical-align: middle;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

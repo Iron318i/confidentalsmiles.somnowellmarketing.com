@@ -1,20 +1,18 @@
 .lp-header {
   background-color: $primary;
   color: #fff;
-  padding: 18px 0;
+  padding: 15px 0;
   .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
   .main-logo {
-    display: block;
-    border-right: 1px solid #fff;
-    margin-right: 19px;
-    padding-right: 19px;
+    width: 200px;
+    display: inline-block;
   }
   .slogan {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
   }
   a {
@@ -24,7 +22,7 @@
     }
   }
   .phone {
-    font-size: 29px;
+    font-size: 18px;
     a {
       display: flex;
       align-items: center;
@@ -34,26 +32,17 @@
     }
   }
   .social {
+    margin-left: 15px;
     li {
       display: inline-block;
-      font-size: 34px;
+      font-size: 24px;
       line-height: 1;
+      + li {
+        margin-left: 3px;
+      }
       a {
         display: inline-block;
       }
     }
-  }
-}
-.lp-wrp {
-  svg {
-    width: 1em;
-    height: 1em;
-  }
-  img, svg {
-    vertical-align: middle;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
   }
 }
