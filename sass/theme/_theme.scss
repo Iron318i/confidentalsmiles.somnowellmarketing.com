@@ -75,6 +75,24 @@ body {
     margin-bottom: 1rem;
   }
 }
+.lp-banner {
+  background-color: $primary;
+  padding: 2rem 0;
+  .hbspt-form {
+    .input {
+      input, textarea {
+        font-size: 14px;
+        width: 100%;
+        border-radius: 19px;
+        padding: 8px 20px;
+      }
+    }
+    .hs-error-msgs {
+      font-size: 10px;
+      color: #000;
+    }
+  }
+}
 .what-is-sm {
   position: relative;
   overflow: hidden;

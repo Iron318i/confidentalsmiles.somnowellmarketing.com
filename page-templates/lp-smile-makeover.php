@@ -7,6 +7,23 @@ get_header();
 echo '<div class="lp-wrp">';
 get_template_part('template-parts/lp-header');
 ?>
+    <section class="lp-banner" style="background-image: url('https://www.confidentalsmiles.co.uk/wp-content/uploads/2022/11/smile-makeover.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <script type="text/javascript">
+                        hbspt.forms.create({
+                            region: "eu1",
+                            portalId: "25790036",
+                            formId: "fa0ac857-d050-4de3-afdc-491c310b2ad5"
+                        });
+                    </script>
+                </div>
+                <div class="col-md-7"></div>
+            </div>
+        </div>
+
+    </section>
     <section class="top-heading py-5">
         <div class="container">
             <h3 class="text-primary">Transform your teeth and your confidence <br>for life by addressing the aspects of your smile <br><strong>you’d like to change</strong></h3>
