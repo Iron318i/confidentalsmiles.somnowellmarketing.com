@@ -31,4 +31,7 @@ defined('ABSPATH') || exit;
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="facebook" fill="currentColor">
         <path d="M16,0A16,16,0,1,0,32,16,16,16,0,0,0,16,0Zm3.49,16H17.25v8.12H13.89V16H12.22V13.2h1.67V11.52c0-2.29.95-3.64,3.64-3.64h2.24v2.8h-1.4c-1.05,0-1.12.39-1.12,1.12v1.4h2.53Z" transform="translate(0 0)"></path>
     </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="check" fill="currentColor">
+        <path d="M256,0C114.6,0,0,114.6,0,256S114.6,512,256,512,512,397.4,512,256,397.4,0,256,0ZM371.8,211.8l-128,128a28,28,0,0,1-39.61,0l-64-64a28,28,0,0,1,39.63-39.63L224,280.4,332.2,172.2a28,28,0,1,1,39.6,39.6Z" transform="translate(0 0)"></path>
+    </symbol>
 </svg>

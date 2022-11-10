@@ -65,7 +65,7 @@ body {
     margin-bottom: 1rem;
   }
 }
-.what-is {
+.what-is-sm {
   position: relative;
   overflow: hidden;
   &:after {
@@ -82,5 +82,31 @@ body {
   }
   img {
     border-radius: 19px;
+  }
+}
+.sm-benefit {
+  flex: 0 0 auto;
+  width: 20%;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #575756;
+  font-weight: 500;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 19px;
+  transition: all .3s ease;
+  .icon {
+    font-size: 22px;
+    color: #8870a4;
+    margin-bottom: 1rem;
+  }
+  &:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+    padding: 2rem;
+    font-weight: 700;
+    .icon {
+      color: #feb70d;
+    }
   }
 }
