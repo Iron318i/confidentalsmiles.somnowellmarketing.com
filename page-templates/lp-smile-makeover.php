@@ -8,13 +8,14 @@ echo '<div class="lp-wrp">';
 get_template_part('template-parts/lp-header');
 ?>
     <section class="lp-banner" style="background-image: url('https://www.confidentalsmiles.co.uk/wp-content/uploads/2022/11/smile-makeover.jpg');">
+        <img src="https://www.confidentalsmiles.co.uk/wp-content/uploads/2022/11/smile-makeover-sm.jpg" alt="" class="mb-1 hide-lg-up">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 content">
+                <div class="col-lg-7 col-md-5 content">
                     <h1>Smile<br> Makeovers <br> Sandhurst</h1>
                     <a href="https://www.confidentalsmiles.co.uk/virtual-tour/" class=""><img src="<?php echo get_template_directory_uri() ?>/images/lp/virtual-tour.png" alt="Virtual Tour"></a>
                 </div>
-                <div class="col-md-5">
+                <div class="col-lg-5 col-md-7">
                     <h3 class="h3">Book a Free Smile Consultation</h3>
                     <script type="text/javascript">
                         hbspt.forms.create({

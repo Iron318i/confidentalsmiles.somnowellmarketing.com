@@ -40,6 +40,7 @@
       text-align: right;
       h1 {
         margin-top: 2rem;
+        font-size: 40px;
       }
     }
   }
@@ -54,6 +55,9 @@
 }
 /*End min-width: 768px and max-width: 991px*/
 @media(min-width: 992px) {
+  .hide-lg-up {
+    display: none !important;
+  }
   .lp-header {
     .main-logo {
       width: 200px;
@@ -81,6 +85,14 @@
     padding-bottom: 2rem;
     &:hover {
       padding: 2rem;
+    }
+  }
+  .lp-banner {
+    padding: 2rem 0;
+    .content {
+      h1 {
+        font-size: 60px;
+      }
     }
   }
 }
@@ -156,6 +168,22 @@
   }
 }
 /*End min-width: 1280px*/
+@media(max-width: 1279px) {
+  .lp-banner {
+    background-position: 59% 51%;
+  }
+}
+/*End max-width: 1279px*/
+@media(max-width: 991px) {
+  .lp-banner {
+    background-image: none !important;
+    .h3 {
+      color: #fff;
+      margin-top: 2rem;
+    }
+  }
+}
+/*End max-width: 991px*/
 @media(max-width: 767px) {
   .lp-header {
     text-align: center;
@@ -181,6 +209,12 @@
       left: 1%;
       right: 1%;
       top: 15%;
+    }
+  }
+  .lp-banner .content {
+    text-align: center;
+    h1 br {
+      display: none;
     }
   }
 }

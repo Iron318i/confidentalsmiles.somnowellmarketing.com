@@ -199,14 +199,14 @@ body {
   }
 }
 .lp-banner {
-  background-color: $primary;
+  background-color: lighten($primary, 15%);
   background-size: cover;
   background-position: center;
-  padding: 2rem 0;
+  padding: 0 0 2rem;
   h1 {
     color: #fff;
     font-weight: 300;
-    font-size: 60px;
+    font-size: 36px;
     line-height: 1.2;
     margin-bottom: 1rem;
   }
