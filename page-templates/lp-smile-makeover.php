@@ -11,6 +11,7 @@ get_template_part('template-parts/lp-header');
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
+                    <h3 class="h3 mb-1">Book a Free Smile Consultation</h3>
                     <script type="text/javascript">
                         hbspt.forms.create({
                             region: "eu1",
