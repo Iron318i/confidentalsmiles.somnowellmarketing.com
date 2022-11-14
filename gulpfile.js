@@ -180,6 +180,7 @@ gulp.task('watch-bs', gulp.parallel('browser-sync', 'watch'));
 // Uglifies and concat all JS files into one
 gulp.task('scripts', function () {
     var scripts = [
+        paths.dev + '/js/themejs/*.js',
         paths.dev + '/js/lp.js',
     ];
     gulp

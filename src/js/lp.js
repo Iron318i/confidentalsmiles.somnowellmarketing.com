@@ -1,28 +1,23 @@
 +function ($) {
-    if ($.fn.owlCarousel) {
-        var slidePost = $('.recent-treatments');
-        slidePost.owlCarousel({
-            items: 3,
-            margin: 0,
-            loop: true,
-            autoplay: true,
-            autoplayTimeout: 7000,
-            smartSpeed: 1500,
-            nav: false,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                480: {
-                    items: 1
-                },
-                601: {
-                    items: 2
-                },
-                768: {
-                    items: 3
-                },
+    $('.recent-treatments').owlCarousel({
+        responsiveClass: true,
+        dots: false,
+        nav: true,
+        margin: 30,
+        items: 1,
+        loop: false,
+        autoplay: false,
+        autoplayTimeout: 3000,
+        responsive: {
+            576: {
+                items: 2
+            },
+            768: {
+                items: 3
+            },
+            992: {
+                items: 4
             }
-        });
-    }
+        }
+    });
 }(jQuery);
