@@ -10,8 +10,12 @@ get_template_part('template-parts/lp-header');
     <section class="lp-banner" style="background-image: url('https://www.confidentalsmiles.co.uk/wp-content/uploads/2022/11/smile-makeover.jpg');">
         <div class="container">
             <div class="row">
+                <div class="col-md-7 content">
+                    <h1>Smile<br> Makeovers <br> Sandhurst</h1>
+                    <a href="https://www.confidentalsmiles.co.uk/virtual-tour/" class=""><img src="<?php echo get_template_directory_uri() ?>/images/lp/virtual-tour.png" alt="Virtual Tour"></a>
+                </div>
                 <div class="col-md-5">
-                    <h3 class="h3 mb-1">Book a Free Smile Consultation</h3>
+                    <h3 class="h3">Book a Free Smile Consultation</h3>
                     <script type="text/javascript">
                         hbspt.forms.create({
                             region: "eu1",
@@ -20,10 +24,8 @@ get_template_part('template-parts/lp-header');
                         });
                     </script>
                 </div>
-                <div class="col-md-7"></div>
             </div>
         </div>
-
     </section>
     <section class="top-heading py-5">
         <div class="container">
@@ -126,6 +128,14 @@ get_template_part('template-parts/lp-header');
                         Our clinicians have completed advanced training, allowing them to execute a result that not only looks attractive, but that upholds the health and overall wellbeing of your smile.</p>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="sm-benefits py-5">
+        <div class="container">
+            <h2 class="h2 mb-2 text-center">Our Recent Treatments</h2>
+            <p><a href="#" class="btn btn-primary">Back to Treatments</a></p>
+            <p><a href="#" class="btn">Call 01252 877 309</a></p>
+            <p><a href="#" class="btn">Contact Us </a></p>
         </div>
     </section>
 <?php
