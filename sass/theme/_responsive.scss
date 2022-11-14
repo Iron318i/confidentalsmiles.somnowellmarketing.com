@@ -44,6 +44,15 @@
       }
     }
   }
+  .lp-contact-box {
+    .col {
+      width: auto;
+    }
+    .sep {
+      width: 1px;
+      height: 37px;
+    }
+  }
 }
 /*End min-width: 768px*/
 @media(min-width: 768px) and (max-width: 991px) {
@@ -166,6 +175,12 @@
       font-size: 40px;
     }
   }
+  .lp-contact-box {
+    padding: 17px 60px;
+    a {
+      min-width: 200px;
+    }
+  }
 }
 /*End min-width: 1280px*/
 @media(max-width: 1279px) {
@@ -180,6 +195,15 @@
     .h3 {
       color: #fff;
       margin-top: 2rem;
+    }
+  }
+  .lp-contact-box {
+    .text {
+      width: 100%;
+      text-align: center;
+      br {
+        display: none;
+      }
     }
   }
 }
@@ -215,6 +239,12 @@
     text-align: center;
     h1 br {
       display: none;
+    }
+  }
+  .lp-contact-box {
+    text-align: center;
+    a.btn {
+      min-width: 80%;
     }
   }
 }

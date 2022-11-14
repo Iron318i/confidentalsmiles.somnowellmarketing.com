@@ -131,6 +131,7 @@ get_template_part('template-parts/lp-header');
             </div>
         </div>
     </section>
+<?php get_template_part('template-parts/lp-contact'); ?>
     <section class="sm-benefits py-5">
         <div class="container">
             <h2 class="h2 mb-2 text-center">Our Recent Treatments</h2>

@@ -1,6 +1,6 @@
 <?php
 /**
- * Sidebar Schedule a call
+ * LP HEADER
  *
  * @package confidentalsmiles
  */
