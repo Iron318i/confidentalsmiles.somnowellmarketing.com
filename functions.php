@@ -868,5 +868,3 @@ function shortcode_HubSpotForm($params = array())
 }
 
 add_shortcode('hubspot_general', 'shortcode_HubSpotForm');
-
-

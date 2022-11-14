@@ -132,14 +132,7 @@ get_template_part('template-parts/lp-header');
         </div>
     </section>
 <?php get_template_part('template-parts/lp-contact'); ?>
-    <section class="sm-benefits py-5">
-        <div class="container">
-            <h2 class="h2 mb-2 text-center">Our Recent Treatments</h2>
-            <p><a href="#" class="btn btn-primary">Back to Treatments</a></p>
-            <p><a href="#" class="btn">Call 01252 877 309</a></p>
-            <p><a href="#" class="btn">Contact Us </a></p>
-        </div>
-    </section>
+<?php get_template_part('template-parts/lp-treatments'); ?>
 <?php
 echo ' </div>';
 get_template_part('template-parts/svg-sprite');
