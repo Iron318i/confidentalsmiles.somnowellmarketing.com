@@ -100,7 +100,7 @@ add_filter('wp_title', 't5_fill_static_front_page_title', 100);
 
 function is_new_lp()
 {
-    if (is_page_template('page-templates/lp-smile-makeover.php') || is_page_template('page-templates/lp-smile-makeover.php')) {
+    if (is_page_template('page-templates/lp-smile-makeover.php') || is_page_template('page-templates/lp-dental-implants.php')) {
         return true;
     } else {
         return false;

@@ -107,8 +107,10 @@ get_template_part('template-parts/lp-header');
                             <use xlink:href="#diamond"></use>
                         </svg>
                     </div>
-                    <p><strong class="fsz-18">Premium materials:</strong><br>
-                        We use durable, high-quality materials to create restorations that will transform your smile.</p>
+                    <div class="mw-295">
+                        <p><strong class="fsz-18">Premium materials:</strong><br>
+                            We use durable, high-quality materials to create restorations that will transform your smile.</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="icon-wrp mb-2">
@@ -116,8 +118,10 @@ get_template_part('template-parts/lp-header');
                             <use xlink:href="#eye"></use>
                         </svg>
                     </div>
-                    <p><strong class="fsz-18">A commitment to detail:</strong><br>
-                        We perform an extensive analysis of what makes your smile unique (some might say we’re obsessives when it comes to detail!) It’s this philosophy that allows us to produce an aesthetically pleasing composition between your smile and your face as a whole.</p>
+                    <div class="mw-295">
+                        <p><strong class="fsz-18">A commitment to detail:</strong><br>
+                            We perform an extensive analysis of what makes your smile unique (some might say we’re obsessives when it comes to detail!) It’s this philosophy that allows us to produce an aesthetically pleasing composition between your smile and your face as a whole.</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="icon-wrp mb-2">
@@ -125,8 +129,10 @@ get_template_part('template-parts/lp-header');
                             <use xlink:href="#crown"></use>
                         </svg>
                     </div>
-                    <p><strong class="fsz-18">Experienced clinicians:</strong><br>
-                        Our clinicians have completed advanced training, allowing them to execute a result that not only looks attractive, but that upholds the health and overall wellbeing of your smile.</p>
+                    <div class="mw-295">
+                        <p><strong class="fsz-18">Experienced clinicians:</strong><br>
+                            Our clinicians have completed advanced training, allowing them to execute a result that not only looks attractive, but that upholds the health and overall wellbeing of your smile.</p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -204,12 +204,15 @@
     .col-md-4 {
       width: auto;
     }
-    p {
-      max-width: 295px;
-    }
     .icon-wrp {
       font-size: 40px;
     }
+  }
+  .mw-295 {
+    max-width: 295px;
+  }
+  .mw-515 {
+    max-width: 515px;
   }
   .lp-contact-box {
     padding: 17px 60px;
