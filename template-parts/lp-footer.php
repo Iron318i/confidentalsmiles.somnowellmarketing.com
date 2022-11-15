@@ -50,3 +50,42 @@ defined('ABSPATH') || exit;
         </div>
     </div>
 </section>
+<div class="copy">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <ul class="social">
+                    <li>
+                        <a href="https://www.facebook.com/ConfidentalUK/" target="_blank">
+                            <svg class="icon">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/ConfidentalUK?lang=en" target="_blank">
+                            <svg class="icon">
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCIgPWkLc9EVtJK6Mprf_Few" target="_blank">
+                            <svg class="icon">
+                                <use xlink:href="#youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/confidental_smiles/" target="_blank">
+                            <svg class="icon">
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-8">Copyright © <?php echo date(Y) ?> Confidental Smiles All Rights Reserved.. <a href="https://www.confidentalsmiles.co.uk/privacy-policy/">Privacy Policy</a> | <a href="https://www.confidentalsmiles.co.uk/terms-of-use/">Terms & Condition</a></div>
+        </div>
+    </div>
+</div>

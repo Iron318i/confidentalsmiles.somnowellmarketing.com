@@ -91,3 +91,26 @@
     }
   }
 }
+.copy {
+  background-color: #120c20;
+  color: #624a7b;
+  font-size: 12px;
+  padding: 13px 0;
+  .row {
+    align-items: center;
+  }
+  .social {
+    display: flex;
+    justify-content: end;
+    font-size: 34px;
+    li + li {
+      margin-left: 5px;
+    }
+    a {
+      color: #fff;
+      &:hover {
+        opacity: .8;
+      }
+    }
+  }
+}

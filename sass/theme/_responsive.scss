@@ -78,6 +78,14 @@
       height: 100%;
     }
   }
+  .copy {
+    .row {
+      flex-direction: row-reverse;
+    }
+    .social {
+      justify-content: end;
+    }
+  }
 }
 /*End min-width: 768px*/
 @media(min-width: 768px) and (max-width: 991px) {
@@ -301,6 +309,13 @@
     text-align: center;
     .sep {
       margin: 1rem 0;
+    }
+  }
+  .copy {
+    text-align: center;
+    .social {
+      justify-content: center;
+      margin-bottom: 1rem;
     }
   }
 }
