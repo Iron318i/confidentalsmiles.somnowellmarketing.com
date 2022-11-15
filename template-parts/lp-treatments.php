@@ -19,12 +19,16 @@ defined('ABSPATH') || exit;
                 $treatmentcat_img = get_field('treatment_category_image_slider', $term);
                 ?>
                 <div class="treatment">
-                    <?php
-                    echo wp_get_attachment_image($treatmentcat_img["ID"], 'medium', false, array("class" => 'img'));
-                    ?>
-                    <h4><?php echo $term->name; ?></h4>
-                    <p><?php echo $term->description; ?></p>
-                    <a href="<?php echo $term->slug; ?>" class="btn btn-primary">Learn More</a>
+                    <div class="img">
+                        <?php
+                        echo wp_get_attachment_image($treatmentcat_img["ID"], 'medium', false, array("class" => ''));
+                        ?>
+                    </div>
+                    <div class="content">
+                        <h4><?php echo $term->name; ?></h4>
+                        <p><?php echo $term->description; ?></p>
+                        <a href="<?php echo get_term_link($term->slug, 'treatmentcategory'); ?>" class="btn btn-primary">Learn More</a>
+                    </div>
                 </div>
                 <?php
             }
