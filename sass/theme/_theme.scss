@@ -395,3 +395,31 @@ body {
     width: 2rem;
   }
 }
+.glamour-evening {
+  color: #fff;
+  background: $primary url('../images/lp/glamour-evening-bg-sm.jpg') center / cover no-repeat;
+  h3 {
+    color: #f6dbb0;
+    font-weight: 700;
+    font-size: 14px;
+    max-width: 390px;
+  }
+  .logo {
+    display: inline-block;
+    text-align: center;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.7;
+    strong {
+      font-size: 17px;
+    }
+  }
+  .evening-badge {
+    padding-top: 1rem;
+  }
+}

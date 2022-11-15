@@ -133,6 +133,8 @@ get_template_part('template-parts/lp-header');
     </section>
 <?php get_template_part('template-parts/lp-contact'); ?>
 <?php get_template_part('template-parts/lp-treatments'); ?>
+<?php get_template_part('template-parts/lp-glamour-evening'); ?>
+    <div class="py-5"></div>
 <?php
 echo ' </div>';
 get_template_part('template-parts/svg-sprite');

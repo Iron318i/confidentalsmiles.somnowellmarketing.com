@@ -53,6 +53,14 @@
       height: 37px;
     }
   }
+  .glamour-evening {
+    background-image: url('../images/lp/glamour-evening-bg.jpg');
+  }
+  .evening-badge {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
 }
 /*End min-width: 768px*/
 @media(min-width: 768px) and (max-width: 991px) {
@@ -103,6 +111,9 @@
         font-size: 60px;
       }
     }
+  }
+  .glamour-evening h2 {
+    font-size: 34px;
   }
 }
 /*End min-width: 992px*/
@@ -249,6 +260,9 @@
     a.btn {
       min-width: 80%;
     }
+  }
+  .glamour-evening {
+    text-align: center;
   }
 }
 /*End max-width: 767px*/
