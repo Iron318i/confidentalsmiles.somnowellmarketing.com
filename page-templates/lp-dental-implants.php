@@ -209,6 +209,44 @@ get_template_part('template-parts/lp-header');
             </ul>
         </div>
     </section>
+    <div class="testimonials py-4">
+        <svg width="0" height="0" class="d-none">
+            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.06 14.97" id="quote" fill="#898989">
+                <path d="M20,3.72l0-.17h0a4.58,4.58,0,1,0-3.75,5.38,4.28,4.28,0,0,1-.25.68,4.62,4.62,0,0,1-.47.84,5.39,5.39,0,0,1-.6.74,7.59,7.59,0,0,1-.69.6,4.13,4.13,0,0,1-.72.46,3.2,3.2,0,0,1-.65.35l-.54.23-.47.19L12.24,15l.6-.14.69-.17a5,5,0,0,0,.88-.32,5.74,5.74,0,0,0,1-.46,10.31,10.31,0,0,0,1.09-.69,8.5,8.5,0,0,0,1-.95,6.85,6.85,0,0,0,.91-1.16,8.6,8.6,0,0,0,.7-1.3,11.88,11.88,0,0,0,.47-1.34A11.76,11.76,0,0,0,20,6a12.08,12.08,0,0,0,0-1.75C20,4.08,20,3.9,20,3.72Zm-11,0,0-.17h0A4.5,4.5,0,1,0,4.5,9a4.48,4.48,0,0,0,.65-.06,4.28,4.28,0,0,1-.25.68,4.62,4.62,0,0,1-.47.84,5.39,5.39,0,0,1-.6.74,7.59,7.59,0,0,1-.69.6,4.13,4.13,0,0,1-.72.46,3.2,3.2,0,0,1-.65.35l-.54.23L.76,13,1.24,15l.6-.14.69-.18a4.93,4.93,0,0,0,.88-.31,6.54,6.54,0,0,0,1-.46,9,9,0,0,0,1.09-.7,7.69,7.69,0,0,0,1-.94,6.85,6.85,0,0,0,.91-1.16,8.6,8.6,0,0,0,.7-1.3,10.19,10.19,0,0,0,.47-1.34A11.76,11.76,0,0,0,9,6,12.08,12.08,0,0,0,9,4.26C9,4.08,9,3.9,9,3.72Z"></path>
+            </symbol>
+        </svg>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-1">
+                    <div class="testimonial">
+                        <svg class="icon">
+                            <use xlink:href="#quote"></use>
+                        </svg>
+                        <p>“I had my first ever implants done. I was absolutely delighted with care and precision took place for 2hrs. DR Deepak Mohal performed the pain free surgery under local anesthetic.”</p>
+                        <p class="author">– Jatindar M</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="testimonial">
+                        <svg class="icon">
+                            <use xlink:href="#quote"></use>
+                        </svg>
+                        <p>“Right side Implants by Sandeep 7 years ago were extremely welcome and have been a success which gave confidence for a similar operation just started on the Left side.”</p>
+                        <p class="author">– Kenneth W</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <svg class="icon">
+                            <use xlink:href="#quote"></use>
+                        </svg>
+                        <p>“Sandeep and the team were great. Very pleased with the results (implants) and the whole process was really straight forward, managed by a friendly, informative and enthusiastic dentist. Strongly recommend!”</p>
+                        <p class="author">– Nathan D</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <?php get_template_part('template-parts/lp-contact'); ?>
 <?php get_template_part('template-parts/lp-treatments'); ?>
 <?php get_template_part('template-parts/lp-glamour-evening'); ?>
