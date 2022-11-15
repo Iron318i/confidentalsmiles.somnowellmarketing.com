@@ -9,7 +9,7 @@ defined('ABSPATH') || exit;
 ?>
 <section class="py-5">
     <div class="container">
-        <h2 class="h2 mb-2 text-center">Our Recent Treatments</h2>
+        <h2 class="h2 mb-2 text-center">Our Treatments</h2>
         <div class="recent-treatments owl-carousel owl-theme">
             <?php
             $terms = get_terms([

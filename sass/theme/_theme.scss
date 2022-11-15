@@ -440,3 +440,45 @@ body {
     height: 100%;
   }
 }
+.lp-faq {
+  color: #fff;
+  background-color: #624a7a;
+  .h2 {
+    color: #fff;
+  }
+  .p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+  }
+}
+.accordion {
+  li {
+    margin-bottom: 1rem;
+  }
+  .toggle {
+    width: 100%;
+    display: block;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 23px;
+    border: 2px solid #8870a4;
+    border-radius: 25px;
+  }
+  .toggle.active,
+  .toggle:hover {
+    color: #fff;
+    background-color: #8870a4;
+    text-decoration: none;
+  }
+  .inner {
+    overflow: hidden;
+    display: none;
+    padding: 1.5rem 0;
+    p {
+      margin-bottom: .7rem;
+      line-height: 1.7;
+    }
+  }
+}

@@ -150,6 +150,65 @@ get_template_part('template-parts/lp-header');
             </div>
         </div>
     </section>
+    <section class="lp-faq py-4 mb-1">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="h2 mb-2">Frequently Asked Questions <br> About Dental Implants</h2>
+                <p class="mb-2 p">If you’re considering dental implants, why not take a look at the answers to the questions we are regularly asked by our patients.</p>
+            </div>
+            <ul class="accordion">
+                <li>
+                    <a class="toggle active" href="#">1. Can anyone have implants?</a>
+                    <div class="inner" style="display:block;">
+                        <p>Dental implants are suitable for most adults who are in good health and have healthy gums. They are not suitable for children and young people under the age of 18 as their bones are still growing. There are a few scenarios where your dentist may not recommend implants:</p>
+                        <p>
+                            • If you are a smoker. <br>
+                            • Have had radiotherapy to your jaw area.<br>
+                            • Have uncontrolled diabetes.<br>
+                            • Suffer with uncontrolled or active gum disease and receding gums.<br>
+                        </p>
+                        <p>If you have any medical problems, do have a chat with us and we can let you know if dental implants will be suitable for you.</p>
+                    </div>
+                </li>
+
+                <li>
+                    <a class="toggle" href="#">2. I’m a bit nervous, will it hurt?</a>
+                    <div class="inner">
+                        <p>At Confidental we want to make your treatment as pain free as possible, which is why we offer a consultation with our smile advisor before you start. Understanding your worries and concerns allows us to make sure your treatment is as comfortable as possible.</p>
+                        <p>The implants are placed under local anaesthetic. There is usually some minor discomfort for the first few days after the surgery, but normal painkillers are sufficient to cope with this. Most of our patients find having to keep their mouth open for 40 minutes whilst the implants are fitted to be the hardest part of the treatment, rather than pain!</p>
+                        <p>If the thought of dental implants is worrying you, we also offer conscious sedation to help you relax.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="toggle" href="#">3. How long do implants last?</a>
+                    <div class="inner">
+                        <p>Many people choose dental implants over dentures as they are a more permanent option. Dentures only tend to last for 5 -10 years. Dental implants are a long-term solution that means you don’t really need to think about your teeth. We have patients who have had their implants for over 20 years and as long as they are looked after, they should last a lifetime.</p>
+                        <p>Latest evidence suggests that 95% of dental implants will last for 15 years or more.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="toggle" href="#">4. What are the alternatives to dental implants?</a>
+                    <div class="inner">
+                        <p>Dentures are an alternative to dental implants but as they are removable, they are not always comfortable. Another alternative is a dental bridge (eg. Maryland bridge, Rochette bridge, cantilever bridge or a fixed bridge), which needs to be supported on adjacent teeth.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="toggle" href="#"> 5. How much do implants cost?</a>
+                    <div class="inner">
+                        <p>The cost of treatment varies depending on the number of implants you’re having and the complexity of the treatment. Once we’ve established your treatment plan, we can give you an indication of the cost of treatment.</p>
+                        <p>It’s worth remembering that implants are a long term solution so whilst the cost is likely to be higher than alternative treatment options, the benefits of dental implants will last a lot longer.</p>
+                        <p>At Confidental, we also offer payment plans to help spread the cost of your dental implant treatment.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="toggle" href="#">6. Do you fit dental implants?</a>
+                    <div class="inner">
+                        <p>Our team of highly qualified dentists at Confidental have been fitting pain-free dental implants for over 15 years. Our experience, dedication and proven results have led to many success stories and huge satisfaction. The natural-looking teeth we fit have enabled our patients to smile again with confidence.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
 <?php get_template_part('template-parts/lp-contact'); ?>
 <?php get_template_part('template-parts/lp-treatments'); ?>
 <?php get_template_part('template-parts/lp-glamour-evening'); ?>

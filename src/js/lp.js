@@ -28,4 +28,22 @@
     $(window).on("load resize", function () {
         $('.treatment p').samesizr();
     });
+
+    $('a.toggle').click(function (e) {
+        e.preventDefault();
+
+        let $this = $(this);
+        $('.toggle').removeClass('active');
+        $this.toggleClass('active');
+
+        if ($this.next().hasClass('show')) {
+            $this.next().removeClass('show');
+            $this.next().slideUp(350);
+        } else {
+            $this.parent().parent().find('li .inner').removeClass('show');
+            $this.parent().parent().find('li .inner').slideUp(350);
+            $this.next().toggleClass('show');
+            $this.next().slideToggle(350);
+        }
+    });
 }(jQuery);
