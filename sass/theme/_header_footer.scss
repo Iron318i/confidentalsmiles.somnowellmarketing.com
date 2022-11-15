@@ -46,3 +46,48 @@
     }
   }
 }
+.lp-footer {
+  padding: 3rem 0;
+  background-color: #1a122d;
+  color: #fff;
+  a:hover {
+    color: #fff;
+  }
+  .row {
+    justify-content: space-between;
+  }
+  .footer-logo img {
+    display: inline-block;
+    width: 215px;
+  }
+  .col {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .sep {
+    display: inline-block;
+    width: 60%;
+    height: 1px;
+    background: #332849;
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: .5rem;
+  }
+  .wrp {
+    padding: 45px 0 0;
+    background-size: 35px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    &.links {
+      background-image: url('../images/lp/icon-links.png');
+    }
+    &.address {
+      background-image: url('../images/lp/icon-address.png');
+    }
+    &.call {
+      background-image: url('../images/lp/icon-phone.png');
+    }
+  }
+}

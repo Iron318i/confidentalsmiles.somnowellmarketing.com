@@ -61,6 +61,23 @@
     justify-content: end;
     align-items: end;
   }
+  .lp-footer {
+    .row {
+      --lp-gutter-x: 0.5rem;
+    }
+    .col {
+      width: auto;
+    }
+    .wrp {
+      padding: 0 0 0 45px;
+      background-position: 0 0;
+    }
+    .sep {
+      display: flex;
+      width: 1px;
+      height: 100%;
+    }
+  }
 }
 /*End min-width: 768px*/
 @media(min-width: 768px) and (max-width: 991px) {
@@ -220,6 +237,16 @@
       }
     }
   }
+  .lp-footer {
+    .footer-logo {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    .sep-1 {
+      display: none;
+    }
+  }
 }
 /*End max-width: 991px*/
 @media(max-width: 767px) {
@@ -261,8 +288,20 @@
       min-width: 80%;
     }
   }
+  .what-is-sm,
+  .sm-benefits,
+  .why-choose-cs,
   .glamour-evening {
     text-align: center;
+  }
+  .why-choose-cs .icon-wrp {
+    margin: 1rem auto;
+  }
+  .lp-footer {
+    text-align: center;
+    .sep {
+      margin: 1rem 0;
+    }
   }
 }
 /*End max-width: 767px*/

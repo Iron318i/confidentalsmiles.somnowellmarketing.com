@@ -134,7 +134,8 @@ get_template_part('template-parts/lp-header');
 <?php get_template_part('template-parts/lp-contact'); ?>
 <?php get_template_part('template-parts/lp-treatments'); ?>
 <?php get_template_part('template-parts/lp-glamour-evening'); ?>
-    <div class="py-5"></div>
+<?php get_template_part('template-parts/lp-workingfeedback'); ?>
+<?php get_template_part('template-parts/lp-footer'); ?>
 <?php
 echo ' </div>';
 get_template_part('template-parts/svg-sprite');
