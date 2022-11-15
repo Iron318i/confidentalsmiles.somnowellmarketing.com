@@ -93,6 +93,20 @@
       height: 34px;
     }
   }
+  .what-is-sm {
+    &.invert {
+      .row {
+        flex-direction: row-reverse;
+      }
+      .col-md-5 {
+        text-align: right;
+      }
+      &:after {
+        right: 30%;
+        left: 0;
+      }
+    }
+  }
 }
 /*End min-width: 768px*/
 @media(min-width: 768px) and (max-width: 991px) {

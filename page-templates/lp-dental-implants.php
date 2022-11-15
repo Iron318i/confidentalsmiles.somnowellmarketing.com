@@ -235,7 +235,7 @@ get_template_part('template-parts/lp-header');
                         <p class="author">– Kenneth W</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-1">
                     <div class="testimonial">
                         <svg class="icon">
                             <use xlink:href="#quote"></use>
@@ -247,6 +247,19 @@ get_template_part('template-parts/lp-header');
             </div>
         </div>
     </div>
+    <section class="what-is-sm invert pt-5 pb-4 mb-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <img src="https://www.confidentalsmiles.co.uk/wp-content/uploads/2022/11/ankylos.jpg" alt="Ankylos">
+                </div>
+                <div class="col-md-7">
+                    <p class="mb-2">If you’re considering dental implants, arrange a Covid-secure consultation with our smile advisor at Confidental to discuss a treatment plan that is as individual as you are. You can also download our guide to treating missing teeth using dental implants.</p>
+                    <p class="mb-2">With extended opening hours throughout the week and at weekends, we’re here to discuss your options and carry out treatment at a convenient time for you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 <?php get_template_part('template-parts/lp-contact'); ?>
 <?php get_template_part('template-parts/lp-treatments'); ?>
 <?php get_template_part('template-parts/lp-glamour-evening'); ?>
