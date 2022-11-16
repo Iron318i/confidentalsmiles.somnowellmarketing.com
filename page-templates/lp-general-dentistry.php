@@ -160,12 +160,14 @@ get_template_part('template-parts/lp-header');
             <p class="mb-2">To learn more why not <a href="https://www.confidentalsmiles.co.uk/meet-the-team/" class="fw-600">Meet The Team</a> or come and see us <a href="https://www.confidentalsmiles.co.uk/virtual-tour/" class="fw-600">Virtual Tour</a> .</p>
         </div>
     </section>
-    <div class="what-next py-4">
-        <div class="container text-center">
-            <h2 class="h2 mb-2">What next?</h2>
-            <p class="mb-2">If you are suffering from twisted and crowded teeth and you are interested in Invisalign, please complete the complimentary consultation form to see if you are suitable.</p>
-            <p class="mb-2 p"><a href="https://www.confidentalsmiles.co.uk/gallerycategory/invisalign/" class="fw-600">Smile Gallery</a> and <a href="https://www.confidentalsmiles.co.uk/testimonials" class="fw-600">Success Stories</a></p>
-            <p><a href="https://www.confidentalsmiles.co.uk/wp-content/uploads/2022/06/TSB052022_TeethStraightening.pdf" class="btn btn-primary">View our Brochure</a></p>
+    <div class="lp-testimonials py-4">
+        <div class="container">
+            <div class="text-center">
+                <h4 class="sub-heading">Testimonials</h4>
+                <h2 class="h2 mb-2">We Love our patients</h2>
+                <p class="mb-2" style="max-width: 525px">This dental practice is excellent, all the staff are lovely, friendly as well as professional. It has a very calming atmosphere, which relaxes you.</p>
+                <p><a href="https://www.confidentalsmiles.co.uk/testimonials" class="btn btn-primary">Learn More</a></p>
+            </div>
         </div>
     </div>
     <div class="pt-5"></div>
