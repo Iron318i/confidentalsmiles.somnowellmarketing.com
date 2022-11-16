@@ -107,7 +107,7 @@ get_template_part('template-parts/lp-header');
                             <h3>Hartdworking</h3>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col hide-sm">
                         <div class="sep"></div>
                     </div>
                     <div class="col">
@@ -121,7 +121,7 @@ get_template_part('template-parts/lp-header');
                             <h3>Respect to others</h3>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col hide-sm">
                         <div class="sep"></div>
                     </div>
                     <div class="col">
@@ -134,7 +134,7 @@ get_template_part('template-parts/lp-header');
                             <h3>Do the right thing</h3>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col hide-sm">
                         <div class="sep"></div>
                     </div>
                     <div class="col">
