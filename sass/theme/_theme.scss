@@ -16,6 +16,9 @@ body {
 .text-center {
   text-align: center;
 }
+.fw-600 {
+  font-weight: 600;
+}
 .btn {
   display: inline-block;
   font-weight: 500;
@@ -518,5 +521,12 @@ body {
     font-weight: 500;
     font-size: 12px;
     margin-top: 10px;
+  }
+}
+.video-testimonials {
+  margin: 0 auto;
+  max-width: 730px;
+  .col-md-6 {
+    display: none;
   }
 }

@@ -46,4 +46,18 @@
             $this.next().slideToggle(350);
         }
     });
+
+    $(document).ready(function () {
+        size_li = $(".video-testimonials .col-md-6").size();
+        x = 4;
+        $('.video-testimonials .col-md-6:lt(' + x + ')').show();
+        $('#loadMoreVideos').click(function () {
+            x = (x + 4 <= size_li) ? x + 4 : size_li;
+            $('.video-testimonials .col-md-6:lt(' + x + ')').slideDown('slow');
+        });
+        $('#showLess').click(function () {
+            x = (x - 4 < 0) ? 4 : x - 4;
+            $('.video-testimonials .col-md-6').not(':lt(' + x + ')').hide();
+        });
+    });
 }(jQuery);

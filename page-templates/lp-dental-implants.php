@@ -260,6 +260,15 @@ get_template_part('template-parts/lp-header');
             </div>
         </div>
     </section>
+    <section class="py-4 mb-1">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="h2 mb-1">Here are a few videos of our implant patients</h2>
+                <p class="mb-2 p"><a href="https://www.confidentalsmiles.co.uk/gallerycategory/invisalign/" class="fw-600">Smile Gallery</a> and <a href="https://www.confidentalsmiles.co.uk/testimonials" class="fw-600">Success Stories</a></p>
+            </div>
+            <?php get_template_part('template-parts/lp-video-testimonials'); ?>
+        </div>
+    </section>
 <?php get_template_part('template-parts/lp-contact'); ?>
 <?php get_template_part('template-parts/lp-treatments'); ?>
 <?php get_template_part('template-parts/lp-glamour-evening'); ?>
