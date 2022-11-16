@@ -530,3 +530,18 @@ body {
     display: none;
   }
 }
+.video-link {
+  display: block;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 252.9 252.9'%3E%3Cpath d='M127.86,254.31A126.45,126.45,0,1,1,254.31,127.86,126.59,126.59,0,0,1,127.86,254.31Zm0-224.8a98.35,98.35,0,1,0,98.35,98.35A98.46,98.46,0,0,0,127.86,29.51Z' transform='translate(-1.41 -1.41)' fill='%23fff'/%3E%3Cpath d='M175.08,133.55a6.57,6.57,0,0,0,0-11.38l-36.28-21L102.53,80.28A6.57,6.57,0,0,0,92.67,86v83.78a6.57,6.57,0,0,0,9.86,5.69L138.8,154.5Z' transform='translate(-1.41 -1.41)' fill='%23fff'/%3E%3C/svg%3E") 50% / contain no-repeat;
+  }
+}

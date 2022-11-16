@@ -11,19 +11,17 @@ defined('ABSPATH') || exit;
 <div class="video-testimonials">
     <?php
     $video = get_field('video_testimonials', 277);
-    $count_displayed = 1;
-    $total_items = count($video);
     ?>
     <div class="row">
         <?php
         foreach ($video as $vid) {
             ?>
             <div class="col-md-6 mb-1">
-                <a class="appear_video_<?php echo $count_displayed; ?>" data-fancybox
+                <a class="video-link" data-fancybox
                     <?php
                     if (!empty($vid['video_type'])) {
                         if ($vid['video_type'] == 'youtube') { ?>
-                            href="https://www.youtube.com/watch?v=<?php echo $vid['video_id']; ?>"
+                            href="https://www.youtube.com/watch?v=<?php echo $vid['video_id']; ?>&amp;autoplay=1"
                         <?php } else { ?>
                             href="https://player.vimeo.com/video/<?php echo $vid['video_id']; ?>"
                         <?php }
@@ -51,7 +49,7 @@ defined('ABSPATH') || exit;
             <?php $count_displayed++;
         } ?>
     </div>
-    <div class="text-center">
+    <div class="text-center" style="padding-top: 2rem;">
         <a id="loadMoreVideos" class="btn btn-primary">Load More</a>
     </div>
 </div>
