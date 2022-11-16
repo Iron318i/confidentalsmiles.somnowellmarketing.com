@@ -247,6 +247,11 @@
   .recent-treatments {
     margin-top: 3rem;
   }
+  .lp-invisalign {
+    .lp-banner .content {
+      padding-top: 6rem;
+    }
+  }
 }
 /*End min-width: 1280px*/
 @media(max-width: 1279px) {
@@ -285,6 +290,9 @@
 }
 /*End max-width: 991px*/
 @media(max-width: 767px) {
+  .center-mobile {
+    text-align: center;
+  }
   .lp-header {
     text-align: center;
     .container {
