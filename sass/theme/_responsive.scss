@@ -38,6 +38,9 @@
     }
     .content {
       text-align: right;
+      .desc {
+        margin-left: auto;
+      }
       h1 {
         margin-top: 2rem;
         font-size: 40px;
@@ -159,6 +162,15 @@
       h1 {
         font-size: 60px;
       }
+      .desc {
+        font-size: 24px;
+        max-width: 450px;
+      }
+      .general-dentistry & {
+        .btn-primary {
+          display: none;
+        }
+      }
     }
   }
   .glamour-evening h2 {
@@ -254,6 +266,14 @@
   }
 }
 /*End min-width: 1280px*/
+@media(min-width: 2000px) {
+  .general-dentistry {
+    .lp-banner {
+      min-height: 995px;
+    }
+  }
+}
+/*End min-width: 2000px*/
 @media(max-width: 1279px) {
   .lp-banner {
     background-position: 59% 51%;
@@ -285,6 +305,18 @@
     }
     .sep-1 {
       display: none;
+    }
+  }
+  .lp-banner {
+    .content {
+      .general-dentistry & {
+        .btn {
+          margin-bottom: 1rem;
+        }
+        .btn-secondary {
+          display: none;
+        }
+      }
     }
   }
 }

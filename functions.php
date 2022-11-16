@@ -100,7 +100,7 @@ add_filter('wp_title', 't5_fill_static_front_page_title', 100);
 
 function is_new_lp()
 {
-    if (is_page_template('page-templates/lp-smile-makeover.php') || is_page_template('page-templates/lp-dental-implants.php') || is_page_template('page-templates/lp-invisalign.php')) {
+    if (is_page_template('page-templates/lp-smile-makeover.php') || is_page_template('page-templates/lp-dental-implants.php') || is_page_template('page-templates/lp-general-dentistry.php') || is_page_template('page-templates/lp-invisalign.php')) {
         return true;
     } else {
         return false;
