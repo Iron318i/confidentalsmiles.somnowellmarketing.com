@@ -656,11 +656,15 @@ h4.sub-heading {
   margin-right: auto;
   max-width: 900px;
 }
+.team-testimonials {
+  .owl-stage {
+    display: flex;
+  }
+}
 .team-testimonial {
   background-color: #eeeeee;
-  padding: 30px;
+  padding: 15px;
   border-radius: 19px;
-  margin-bottom: 1rem;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -691,8 +695,8 @@ h4.sub-heading {
   }
   .img {
     position: absolute;
-    right: 30px;
-    bottom: 30px;
+    right: 15px;
+    bottom: 15px;
     a {
       display: block;
       img {

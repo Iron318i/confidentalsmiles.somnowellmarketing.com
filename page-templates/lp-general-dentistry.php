@@ -19,7 +19,7 @@ get_template_part('template-parts/lp-header');
                     </div>
                     <div class="">
                         <a href="https://uk.dentalhub.online/soe/new/Confidental?pid=UKCFL01" class="btn btn-info">Learn More</a>
-                        <a href="https://www.google.com/maps/place/Confidental+Dental+Practice/@51.3453069,-0.7984152,15z/data=!4m2!3m1!1s0x0:0x5202eb77aa6c22ab?sa=X&ved=2ahUKEwjjytrxxI3pAhUQYcAKHemVDx4Q_BIwCnoECCAQCA">Find Us </a>
+                        <a href="https://www.google.com/maps/place/Confidental+Dental+Practice/@51.3453069,-0.7984152,15z/data=!4m2!3m1!1s0x0:0x5202eb77aa6c22ab?sa=X&ved=2ahUKEwjjytrxxI3pAhUQYcAKHemVDx4Q_BIwCnoECCAQCA" class="btn btn-secondary">Find Us </a>
                         <a href="https://www.google.com/maps/place/Confidental+Dental+Practice/@51.3453069,-0.7984152,15z/data=!4m2!3m1!1s0x0:0x5202eb77aa6c22ab?sa=X&ved=2ahUKEwjjytrxxI3pAhUQYcAKHemVDx4Q_BIwCnoECCAQCA" class="btn btn-primary">Find Us </a>
                     </div>
                 </div>
