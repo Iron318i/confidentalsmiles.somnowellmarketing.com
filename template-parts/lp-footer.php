@@ -85,7 +85,7 @@ defined('ABSPATH') || exit;
                     </li>
                 </ul>
             </div>
-            <div class="col-md-8">Copyright © <?php echo date(Y) ?> Confidental Smiles All Rights Reserved.. <a href="https://www.confidentalsmiles.co.uk/privacy-policy/">Privacy Policy</a> | <a href="https://www.confidentalsmiles.co.uk/terms-of-use/">Terms & Condition</a></div>
+            <div class="col-md-8">Copyright © <?php echo date('Y') ?> Confidental Smiles All Rights Reserved.. <a href="https://www.confidentalsmiles.co.uk/privacy-policy/">Privacy Policy</a> | <a href="https://www.confidentalsmiles.co.uk/terms-of-use/">Terms & Condition</a></div>
         </div>
     </div>
 </div>

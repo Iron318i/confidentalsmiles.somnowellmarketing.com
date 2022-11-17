@@ -188,7 +188,7 @@ function website_assets_js_css()
 
         wp_enqueue_style('lp-styles', get_template_directory_uri() . '/css/lp.min.css', array(), $css_version);
 
-        $js_version = $theme_version . '.' . filemtime(get_template_directory() . '/js/theme.js');
+        $js_version = $theme_version . '.' . filemtime(get_template_directory() . '/js/lp.js');
 
         wp_enqueue_script('jquery');
         wp_enqueue_script('lp-scripts', get_template_directory_uri() . '/js/lp.js', array(), $js_version, true);

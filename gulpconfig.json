@@ -18,7 +18,7 @@
     "node": "./node_modules",
     "composer": "./vendor",
     "dev": "./src",
-    "dist": "./dist/somnowell",
-    "distprod": "./dist-product/somnowell"
+    "dist": "./dist/confidentsmilenew",
+    "distprod": "./dist-product/confidentsmilenew"
   }
 }
