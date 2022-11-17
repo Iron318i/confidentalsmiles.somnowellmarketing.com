@@ -13,9 +13,8 @@ get_template_part('template-parts/lp-header');
             <div class="row">
                 <div class="col-lg-7 col-md-5 content">
                     <div class="">
-                        <h1 style="margin-top: 0;">General <br>
-                            Dentistry</h1>
-                        <p class="desc mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <h1 style="margin-top: 0;">Are you stuck in the backlog <br> of NHS waiting lists? <br> Switch to Private Dental.</h1>
+                        <p class="desc mb-1">Confidental Smiles in Sandhurst is your local private dentist. Skip the NHS waiting list and see our professional dentists in a matter of days. Providing you with quality dental treatments in a calm and caring environment.</p>
                     </div>
                     <div class="">
                         <a href="https://uk.dentalhub.online/soe/new/Confidental?pid=UKCFL01" class="btn btn-info">Learn More</a>

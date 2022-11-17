@@ -173,9 +173,12 @@
     .content {
       h1 {
         font-size: 60px;
+        .general-dentistry & {
+          font-size: 40px;
+        }
       }
       .desc {
-        font-size: 24px;
+        font-size: 18px;
         max-width: 450px;
       }
       .general-dentistry & {
@@ -293,14 +296,6 @@
   }
 }
 /*End min-width: 1280px*/
-@media(min-width: 2000px) {
-  .general-dentistry {
-    .lp-banner {
-      min-height: 995px;
-    }
-  }
-}
-/*End min-width: 2000px*/
 @media(max-width: 1279px) {
   .lp-banner {
     background-position: 59% 51%;
