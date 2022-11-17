@@ -161,8 +161,7 @@ get_template_part('template-parts/lp-header');
         </div>
     </section>
 <?php get_template_part('template-parts/lp-love-patients'); ?>
-    <div class="pt-5"></div>
-<?php get_template_part('template-parts/lp-contact'); ?>
+<?php get_template_part('template-parts/lp-owl-testimonials'); ?>
 <?php get_template_part('template-parts/lp-glamour-evening'); ?>
 <?php get_template_part('template-parts/lp-workingfeedback'); ?>
 <?php get_template_part('template-parts/lp-footer'); ?>
