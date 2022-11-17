@@ -160,16 +160,7 @@ get_template_part('template-parts/lp-header');
             <p class="mb-2">To learn more why not <a href="https://www.confidentalsmiles.co.uk/meet-the-team/" class="fw-600">Meet The Team</a> or come and see us <a href="https://www.confidentalsmiles.co.uk/virtual-tour/" class="fw-600">Virtual Tour</a> .</p>
         </div>
     </section>
-    <div class="lp-testimonials py-4">
-        <div class="container">
-            <div class="text-center">
-                <h4 class="sub-heading">Testimonials</h4>
-                <h2 class="h2 mb-2">We Love our patients</h2>
-                <p class="mb-2" style="max-width: 525px">This dental practice is excellent, all the staff are lovely, friendly as well as professional. It has a very calming atmosphere, which relaxes you.</p>
-                <p><a href="https://www.confidentalsmiles.co.uk/testimonials" class="btn btn-primary">Learn More</a></p>
-            </div>
-        </div>
-    </div>
+<?php get_template_part('template-parts/lp-love-patients'); ?>
     <div class="pt-5"></div>
 <?php get_template_part('template-parts/lp-contact'); ?>
 <?php get_template_part('template-parts/lp-glamour-evening'); ?>

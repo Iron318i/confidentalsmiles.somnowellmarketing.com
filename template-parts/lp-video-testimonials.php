@@ -46,7 +46,6 @@ defined('ABSPATH') || exit;
                     ?>
                 </a>
             </div>
-            <?php $count_displayed++;
         } ?>
     </div>
     <div class="text-center" style="padding-top: 2rem;">
