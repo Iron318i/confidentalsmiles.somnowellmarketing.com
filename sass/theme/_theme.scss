@@ -469,17 +469,18 @@ h4.sub-heading {
 .glamour-evening {
   color: #fff;
   background: $primary url('../images/lp/glamour-evening-bg-sm.jpg') center / cover no-repeat;
-  h3 {
+  h2 {
     color: #f6dbb0;
     font-weight: 700;
     font-size: 14px;
     max-width: 390px;
+    margin-bottom: 1rem;
   }
   .logo {
     display: inline-block;
     text-align: center;
   }
-  h2 {
+  h3 {
     font-size: 24px;
     font-weight: 700;
   }

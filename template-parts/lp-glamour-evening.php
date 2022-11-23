@@ -6,19 +6,44 @@
  */
 // Exit if accessed directly.
 defined('ABSPATH') || exit;
+$event_bg_image = get_field('event_bg_image', 5);
+if (!empty($event_bg_image)) {
+    $event_bg_image = aq_resize($event_bg_image, 1500, 800, true, true, true);
+}
 ?>
-<section class="glamour-evening py-4">
+<section class="glamour-evening py-4" <?php echo !empty($event_bg_image) ? 'style="background: url(' . $event_bg_image . ') no-repeat center / cover;"' : ''; ?>>
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <h3 class="mb-2">STEP UP YOUR GLAM THIS CHRISTMAS AND GET THE SKIN SECRETS YOU'LL WISH YOU KNEW SOONER! </h3>
-                <div class="logo mb-2">
-                    <img src="https://www.confidentalsmiles.co.uk/wp-content/uploads/2022/11/glamour-evening-logo.png" alt="Glamour evening">
-                    <h2>17 NOVEMBER 2022 | 6-8PM</h2>
-                </div>
-                <p class="mb-2"><strong>Confidental Smiles, 70A YorkTown Road, Sandhurst, Berkshire, GU47 9BT</strong><br>
-                    Our fun and free Glamour Evening is open to all new and existing patients, so bring your friends along and let's pop the bubbles! The evening will give you the chance to learn more about different treatments we offer, e.g Facial Fillers, Anti-wrinkle injections & 8-point lift and give you the opportunity to talk to our facial experts and see some of our work for yourself!</p>
-                <p><a href="http://confidentalsmiles-25790036.hs-sites-eu1.com/en/facial_aesthetics_glamour_evening_2022" class="btn btn-primary">Reserve Now</a></p>
+                <?php
+                if (!empty(get_field('event_title', 5))) {
+                    echo get_field('event_title', 5);
+                }
+                if (!empty(get_field('event_date', 5)) || !empty(get_field('event_time', 5))) {
+
+                    $var1 = get_field('event_date', 5);
+                    $var2 = get_field('event_time', 5);
+                }
+                ?>
+                <h2><?php if (!empty(get_field('event_date', 5))) {
+                        echo $var1;
+                    } ?> <span>|</span><?php if (!empty(get_field('event_time', 5))) {
+                        echo $var2;
+                    } ?></h2>
+                <p class="mb-2"><strong><?php
+                        if (!empty(get_field('event_location', 5))) {
+                            echo get_field('event_location', 5);
+                        }
+                        ?></strong><br>
+                    <?php
+                    if (!empty(get_field('event_description', 5))) {
+                        echo get_field('event_description', 5);
+                    }
+                    ?>
+                </p>
+                <?php if (!empty(get_field('event_reserve_link', 5))) { ?>
+                    <p><a href="<?php echo get_field('event_reserve_link', 5) ?>" class="btn btn-primary">Reserve Now</a></p>
+                <?php } ?>
             </div>
             <div class="col-md-5 evening-badge">
                 <a href="http://confidentalsmiles-25790036.hs-sites-eu1.com/en/facial_aesthetics_glamour_evening_2022" class="">

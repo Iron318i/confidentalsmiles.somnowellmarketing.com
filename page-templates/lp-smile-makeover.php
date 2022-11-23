@@ -17,11 +17,11 @@ get_template_part('template-parts/lp-header');
                 </div>
                 <div class="col-lg-5 col-md-7">
                     <h3 class="h3">Book a Free Smile Consultation</h3>
-                    <script type="text/javascript">
+                    <script>
                         hbspt.forms.create({
                             region: "eu1",
                             portalId: "25790036",
-                            formId: "fa0ac857-d050-4de3-afdc-491c310b2ad5"
+                            formId: "ed928afc-0a7a-4167-bf81-5f2f469de400"
                         });
                     </script>
                 </div>
@@ -99,7 +99,7 @@ get_template_part('template-parts/lp-header');
             </symbol>
         </svg>
         <div class="container">
-            <h2 class="h2 mb-2 text-center">Why Choose Confident Smiles <br> For Your Smile Makeover?</h2>
+            <h2 class="h2 mb-2 text-center">Why Choose Confident <br> For Your Smile Makeover?</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="icon-wrp mb-2">

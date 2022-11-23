@@ -17,11 +17,11 @@ get_template_part('template-parts/lp-header');
                 </div>
                 <div class="col-lg-5 col-md-7">
                     <h3 class="h3">Book a Free Smile Consultation</h3>
-                    <script type="text/javascript">
+                    <script>
                         hbspt.forms.create({
                             region: "eu1",
                             portalId: "25790036",
-                            formId: "fa0ac857-d050-4de3-afdc-491c310b2ad5"
+                            formId: "37a18f6d-397f-4d67-b102-e9ca9b3383d5"
                         });
                     </script>
                 </div>
