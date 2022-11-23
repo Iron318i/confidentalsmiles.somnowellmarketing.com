@@ -25,11 +25,11 @@ if (!empty($event_bg_image)) {
                     $var2 = get_field('event_time', 5);
                 }
                 ?>
-                <h2><?php if (!empty(get_field('event_date', 5))) {
+                <h4><?php if (!empty(get_field('event_date', 5))) {
                         echo $var1;
-                    } ?> <span>|</span><?php if (!empty(get_field('event_time', 5))) {
+                    } ?> <span> | </span><?php if (!empty(get_field('event_time', 5))) {
                         echo $var2;
-                    } ?></h2>
+                    } ?></h4>
                 <p class="mb-2"><strong><?php
                         if (!empty(get_field('event_location', 5))) {
                             echo get_field('event_location', 5);
@@ -46,7 +46,7 @@ if (!empty($event_bg_image)) {
                 <?php } ?>
             </div>
             <div class="col-md-5 evening-badge">
-                <a href="http://confidentalsmiles-25790036.hs-sites-eu1.com/en/facial_aesthetics_glamour_evening_2022" class="">
+                <a href="<?php echo get_field('event_reserve_link', 5) ?>" class="">
                     <img src="https://www.confidentalsmiles.co.uk/wp-content/uploads/2022/11/glamour-evening-badge.png" alt="limited space available">
                 </a>
             </div>
