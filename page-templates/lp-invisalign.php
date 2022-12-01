@@ -41,7 +41,7 @@ get_template_part('template-parts/lp-header');
                     <h2 class="h2 mb-1">Start Your Invisalign <br> Treatment from as little <br> as £29.50 per month</h2>
                 </div>
                 <div class="col-md-6">
-                    <p class="mb-1">Virtually invisible Invisalign® Aligners that won’t hamper your style. Come and see our amazing results for yourself click here to see our smile gallery. </p>
+                    <p class="mb-1">Virtually invisible Invisalign® Aligners won’t hamper your style. See our amazing results for yourself. Click here to <a href="https://www.confidentalsmiles.co.uk/smile-gallery/">see our smile gallery</a>.</p>
                     <p class="mb-1">If you have twisted, crooked or overlapping teeth and you keep hiding your smile, then Invisalign® could be for you! </p>
                     <p class="mb-1">The great news is that the field of orthodontics has come a long way over the past few decades. Thanks to Invisalign® (the most popular US brand), it’s now possible to use near-invisible removable aligners or invisible braces instead of fixed braces to straighten your teeth.</p>
                 </div>
@@ -57,7 +57,7 @@ get_template_part('template-parts/lp-header');
                 <div class="col-md-7">
                     <h2 class="h2 mb-2">Why is Invisalign® <br> right for you?</h2>
                     <p class="mb-2">Clear, comfortable and effective.</p>
-                    <p class="mb-2"> Invisalign® is a clear removable brace system which is virtually invisible and is used to straighten mildly crooked or miss-aligned teeth. The revolutionary technique is becoming more and more popular as patients realise, they can get effective results without making it obvious that you are even wearing braces!</p>
+                    <p class="mb-2"> Invisalign® is a clear removable brace system which is virtually invisible and is used to straighten mildly crooked or misaligned teeth. The revolutionary technique is becoming more and more popular as patients realise they can get effective results discreetly, without wearing traditional braces!</p>
 
                     <p class="mb-2"> No metal! No wires!</p>
                 </div>
@@ -71,14 +71,15 @@ get_template_part('template-parts/lp-header');
                 <iframe src="https://player.vimeo.com/video/283906373?rel=0&showinfo=0&dnt=1" title="Implants" allowfullscreen></iframe>
             </div>
             <p class="mb-2">No more embarrassing metal wires, due to near invisibility of Invisalign® braces.</p>
-            <p class="mb-2">No metal allergies due to brackets and wires.Greater treatment visibility and easier planning with our treatment software.They are tailored to match your teeth, for reduced irritation.</p>
+            <p class="mb-2">No metal allergies due to brackets and wires. Greater treatment visibility and easier planning with our treatment software. They are tailored to match your teeth, for reduced irritation.</p>
             <p class="mb-2">Our crystal-clear aligners from Invisalign® are ideal if you would like to straighten your teeth without anyone knowing. The clear aligners are moulded to fit your teeth and can be easily removed for eating, brushing your teeth and the occasional evening out, making them a popular choice with many people.</p>
-            <p class="mb-2">There are no sharp edges or individual brackets with Invisalign®, meaning they are comfortable and irritation-free. You will be welcomed back regularly to review progress as your custom-made aligners transform your smile by moving your teeth to their desired position little by little, whilst you hardly notice you are wearing them! The average treatment time with Invisalign® is 12 – 24 months.</p>
+            <p class="mb-2">There are no sharp edges or individual brackets with Invisalign®, meaning they are comfortable and irritation-free. You will be welcomed back regularly to review progress as your custom-made aligners transform your smile by gradually moving your teeth to their desired position, whilst you hardly notice you are wearing them!
+                The average treatment time with Invisalign® is 12 – 24 months.</p>
             <p class="mb-2"><strong>Wearing the aligners:</strong> You wear each Invisalign® aligner for two weeks, before moving on to the next in the series, only taking them out to eat, drink, brush and floss your teeth as normal.</p>
-            <p class="mb-2"><strong>Follow up appointments:</strong> We will see you every 4-6 weeks during your treatment until your teeth are straightened into the positions that we have prescribed, and it is determined that your treatment is complete.
+            <p class="mb-2"><strong>Follow-up appointments:</strong> We will see you every 4-6 weeks during your treatment until your teeth are straightened into the correct positions and your treatment is complete.
             </p>
             <h2 class="h2 mb-2">Helping to make your treatment affordable.</h2>
-            <p class="mb-2">Every case is different and your treatments journey may vary. As a guide treatments usually vary between £2500 and £4500. We offer payment plans to make your treatment more affordable. We can give you a specific breakdown of the cost when we get to see your mouth, but to give you an idea, Invisalign® treatment can cost as little as £29.50 per month using our payment plans. Please visit out Guarantee and Finance page where you will find an easy to use finance calculator.</p>
+            <p class="mb-2">Every case is different with it's own treatment journey. As a guide treatments usually vary between £2500 and £4500. We offer payment plans to make your treatment more affordable. We can give you a specific breakdown of the cost when we examine your teeth. But to give you an idea, Invisalign® treatment can cost as little as £29.50 per month using our payment plans. Please visit out Guarantee and Finance page where you will find an easy to use finance calculator.</p>
 
         </div>
     </section>

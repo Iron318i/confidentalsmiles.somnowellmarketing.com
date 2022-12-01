@@ -73,8 +73,8 @@ get_template_part('template-parts/lp-header');
                 <div class="col-md-6">
                     <p style="margin-bottom: 5px;">Here at Confidental we’ve been providing dentistry for over 50 years and make these promises to all of our patients:</p>
                     <p style="margin-bottom: 5px;"><span class="text-primary fw-700">></span> We will be calm and caring.</p>
-                    <p style="margin-bottom: 5px;"><span class="text-primary fw-700">></span> We will provide pain free treatments- we always develop and improve our techniques to deliver a pain free experience as close to 100% of our patients as possible.</p>
-                    <p style="margin-bottom: 5px;"><span class="text-primary fw-700">></span> Try our best to see you on time.</p>
+                    <p style="margin-bottom: 5px;"><span class="text-primary fw-700">></span> We will provide pain-free treatments; we always improve our techniques to keep patients 100% pain-free as much as possible.</p>
+                    <p style="margin-bottom: 5px;"><span class="text-primary fw-700">></span> We try our best to see you on time.</p>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@ get_template_part('template-parts/lp-header');
         <div class="container">
             <div class="text-center">
                 <h2 class="h2 mb-2">Confidental Team Culture is based <br> Key Values</h2>
-                <p class="mb-2" style="max-width: 755px">Confidental by itself is just a building. What makes it something special is the team members who make the care we provide you transformational. Each and every one of our team adds something to define who we as Confidental. Below are our company values:</p>
+                <p class="mb-2" style="max-width: 755px">Confidental is more than a dental practice. What makes it special are the team members who provide treatments that transform your smile. Below are our company values:</p>
             </div>
             <div class="company-values">
                 <div class="row mb-3">
@@ -103,7 +103,7 @@ get_template_part('template-parts/lp-header');
                                     <line x1="3" y1="23.25" x2="3" y2="20.25" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
                                 </svg>
                             </div>
-                            <h3>Hartdworking</h3>
+                            <h3>Hardworking</h3>
                         </div>
                     </div>
                     <div class="col hide-sm">
@@ -117,7 +117,7 @@ get_template_part('template-parts/lp-header');
                                           fill="#624a7a"/>
                                 </svg>
                             </div>
-                            <h3>Respect to others</h3>
+                            <h3>Respect for others</h3>
                         </div>
                     </div>
                     <div class="col hide-sm">
@@ -148,7 +148,7 @@ get_template_part('template-parts/lp-header');
                                     <path d="M136.9,205.2H109.5V191.5a41.1,41.1,0,1,0-82.2,0H0a68.4,68.4,0,0,1,136.8,0v13.7Z" fill="#624a7a"/>
                                 </svg>
                             </div>
-                            <h3>Hartdworking</h3>
+                            <h3>Trustworthy</h3>
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@ get_template_part('template-parts/lp-header');
             <p class="mb-2">Why do patients visit Confidental? Because these people along with our team understand the importance of treating people with respect, being honest and trustworthy.</p>
             <p class="mb-2">We all know that integrity and trust are important to any relationship, be it business or personal. When you apply that to a relationship with our customers, listening to their needs and being ready to assist when needed, being able to help out makes us service orientated. This is why a customer calls and tells us that their gums are bleeding, the team is willing to stay late or work their lunch to accommodate.</p>
             <p class="mb-2">It’s what we come together for every day. It’s in our upbringing/genes/thinking – we’re not completely sure. One thing for sure – people with these values are the people we want to be in our team, our family. We want to continue to make Confidental a fun place to work at and continue to make us thrive, by taking care of you.</p>
-            <p class="mb-2">To learn more why not <a href="https://www.confidentalsmiles.co.uk/meet-the-team/" class="fw-600">Meet The Team</a> or come and see us <a href="https://www.confidentalsmiles.co.uk/virtual-tour/" class="fw-600">Virtual Tour</a> .</p>
+            <p class="mb-2">To learn more why not Meet The Team or come and see us <a href="https://www.confidentalsmiles.co.uk/virtual-tour/" class="fw-600">Virtual Tour</a> .</p>
         </div>
     </section>
 <?php get_template_part('template-parts/lp-love-patients'); ?>

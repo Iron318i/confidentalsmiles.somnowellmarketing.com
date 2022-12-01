@@ -40,7 +40,7 @@ get_template_part('template-parts/lp-header');
                 <iframe src="https://player.vimeo.com/video/283906328?rel=0&amp;showinfo=0&amp;dnt=1" title="Implants" allowfullscreen></iframe>
             </div>
             <h2 class="h2 mb-2">At Confidental, you’re in safe hands</h2>
-            <p class="mb-2">For many, the loss of a tooth can really knock our self-confidence. Not only can it affect your smile, but the way you eat and speak. Dental implants are an ideal option for replacing a missing tooth and can provide a lifetime of confidence in your smile.</p>
+            <p class="mb-2">For many, the loss of a tooth can really knock your self-confidence. Not only can it affect your smile, but the way you eat and speak. Dental implants are an ideal option for replacing a missing tooth and can provide a lifetime of confidence in your smile.</p>
             <p class="mb-2">At Confidental, our caring team of dentists can help you to restore your smile using the latest technology in dental implants. We have been fitting dental implants into the mouths of thousands of patients for over 15 years.We know you’ll have lots of questions when considering dental implants. </p>
             <p class="mb-2">We offer a free consultation with our smile advisor, where you can chat through any concerns you may have over a cup of tea or coffee. We’ve also listed below some frequently asked questions to help put your mind at ease.</p>
             <p class="mb-2">If you’d like to hear what some of our patients have to say about having dental implants fitted at Confidental, why not take a look at the videos below.
@@ -55,8 +55,8 @@ get_template_part('template-parts/lp-header');
                 </div>
                 <div class="col-md-7">
                     <h2 class="h2 mb-2">What Are Dental Implants?</h2>
-                    <p class="mb-2">Dental implants are a long term solution for one or more missing teeth. They are made up of an artificial titanium root, placed directly into the jawbone by your dentist. An extension is fitted to the top of the implant which provides a strong foundation to support crowns, bridges or implant dentures.</p>
-                    <p class="mb-2">Dental implants look and feel just like natural teeth and are an ideal option if you are concerned about replacement teeth coming loose. They also safeguard your overall dental health. It’s very important to replace missing teeth, because when you lose a tooth it can cause bone loss that in turn can age your face and lead to adjacent teeth becoming loose or drifting out of alignment.</p>
+                    <p class="mb-2">Dental implants are a long-term solution for one or more missing teeth. The first step is an artificial titanium root, placed directly into the jawbone by your dentist. An extension is fitted to the top of the implant which provides a strong foundation to support crowns, bridges or implant dentures.</p>
+                    <p class="mb-2">Dental implants look and feel just like natural teeth and are an ideal option if you are concerned about replacement teeth coming loose. They also safeguard your overall dental health. It’s very important to replace missing teeth, because when you lose a tooth it can cause bone loss in your jaw. This bone loss can age your face and lead to adjacent teeth becoming loose or drifting out of alignment.</p>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@ get_template_part('template-parts/lp-header');
                     <svg class="icon">
                         <use xlink:href="#check"></use>
                     </svg>
-                    <p>Help prevent ageing bone loss by stimulating your bone structure & stabilising the surrounding teethRepair chipped and cracked teeth</p>
+                    <p>Help prevent ageing bone loss bY stimulating your bone structure and stabilising the surrounding teeth</p>
                 </div>
                 <div class="sm-benefit">
                     <svg class="icon">
@@ -144,7 +144,7 @@ get_template_part('template-parts/lp-header');
                     </div>
                     <div class="mw-515">
                         <p><strong class="fsz-18">Implant Retained Bridges and Dentures:</strong><br>
-                            An option for patients who have lost a number of teeth in a row, is to have implant retained bridge or dentures fitted. An implant is placed into the jawbone at either end of the gap and a dental bridge or denture is used to bridge the gap. Thanks to the retaining implants, the teeth are more securely attached and less likely to slip or rub against your gums. The dentures can be removed for cleaning just like traditional dentures. Following a period of healing, the new dentures will be fitted. Temporary dentures are used whilst your treatment is taking place.</p>
+                            An option for patients who have lost a number of teeth in a row. They can have an implant-retained bridge or dentures fitted. An implant is placed into the jawbone at either end of the gap and a dental bridge or denture is used to bridge the gap. Thanks to the retaining implants, the teeth are more securely attached and less likely to slip or rub against your gums. The dentures can be removed for cleaning just like traditional dentures. Following a period of healing, the new dentures will be fitted. Temporary dentures are used whilst your treatment is taking place.</p>
                     </div>
                 </div>
             </div>
