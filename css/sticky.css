@@ -1,4 +1,4 @@
-﻿.float-panel { width:100%; transition:all 0.7s;}
+.float-panel { width:100%; transition:all 0.7s;}
 .fixed { border:none; animation:slide-down 0.7s;}
 .fixed .fa-gg { transform:rotate(360deg);}
 .fixed { width:1300px !important; float:none; margin:auto !important; padding:8px 0 8px; left:0; right:0; z-index:999999}
